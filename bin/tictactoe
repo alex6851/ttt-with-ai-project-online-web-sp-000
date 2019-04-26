@@ -5,7 +5,10 @@ require_relative '../config/environment'
 
 
 puts "Welcome to Tic-tac-toe"
-while input3 == "Y"
+game = Game.new
+until game.won?
+  game.play
+end
 
   puts "Do you want to play a 0, 1 or 2 player game?"
 
@@ -36,5 +39,4 @@ while input3 == "Y"
 game.play
 puts "Do you want to play again?"
 
-input3 = gets.strip
-end
+
