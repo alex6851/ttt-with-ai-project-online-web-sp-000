@@ -37,3 +37,4 @@ game.play
 puts "Do you want to play again?"
 
 input3 = gets.strip
+end
