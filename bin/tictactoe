@@ -26,5 +26,5 @@ when "2"
   puts "Who do you want to go first? player 1 or 2"
 game = Game.new(player_1 = Players::Human.new("X"),player_2 = Players::Human.new("O"),board = Board.new)
 end
-binding.pry
+
 game.play
