@@ -35,4 +35,5 @@ while input3 != "end"
 
 game.play
 puts "Do you want to play again?"
+
 input3 = gets.strip
