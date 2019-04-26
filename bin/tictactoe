@@ -13,7 +13,6 @@ input = gets.strip
 case input
 when "0"
 game = Game.new(player_1 = Players::Computer.new("X"),player_2 = Players::Computer.new("O"),board = Board.new)
-binding.pry
 when "1"
   puts "Do you want to go first and be X? Y/N"
   input1 = gets.strip
