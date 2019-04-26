@@ -2,7 +2,7 @@
 require 'pry'
 require_relative '../config/environment'
 
-attr_accessor :game
+
 
 puts "Welcome to Tic-tac-toe"
 
