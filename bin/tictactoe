@@ -2,6 +2,8 @@
 require 'pry'
 require_relative '../config/environment'
 
+attr_accessor :game
+
 puts "Welcome to Tic-tac-toe"
 
 puts "Do you want to play a 0, 1 or 2 player game?"
