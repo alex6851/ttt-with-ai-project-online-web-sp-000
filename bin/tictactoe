@@ -38,5 +38,3 @@ end
 
 game.play
 puts "Do you want to play again?"
-
-
